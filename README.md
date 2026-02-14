@@ -3,49 +3,49 @@
 ![Project Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-Красивый и современный интерфейс авторизации с эффектом **Glassmorphism** и анимацией частиц. Проект включает в себя стартовую страницу и формы входа/регистрации.
+A beautiful and modern authentication interface featuring **Glassmorphism** effects and particle animations. The project includes a welcome page and seamless login/registration forms.
 
 ---
 
-## 🚀 Демо версия
+## 🚀 Live Demo
 
-### [👉 Посмотреть сайт вживую](https://vrmmosdev.github.io/example-site/)
-*(Нажми на ссылку выше, чтобы открыть проект)*
-
----
-
-## ✨ Особенности
-
-*   **🎨 Дизайн:** Стиль "Glassmorphism" (эффект матового стекла) с размытием фона.
-*   **✨ Анимации:** 
-    *   Падающие частицы на фоне (CSS Keyframes).
-    *   Плавное появление форм (`slideIn`).
-    *   Интерактивные кнопки с градиентным бликом при наведении.
-*   **⚙️ Функционал:**
-    *   Плавное переключение между Входом и Регистрацией без перезагрузки.
-    *   **Показ пароля:** Кнопка "глазик" работает по удержанию (безопасность).
-    *   **Валидация:** Блокировка ввода кириллицы (разрешен только английский и символы).
-    *   **Защита UI:** Заблокировано перетаскивание элементов (Drag & Drop prevention).
+### [👉 View Live Site](https://vrmmosdev.github.io/example-site/)
+*(Click the link above to open the project)*
 
 ---
 
-## 🛠️ Технологии
+## ✨ Features
 
-| Технология | Описание |
+*   **🎨 Design:** "Glassmorphism" style (frosted glass effect) with background blur.
+*   **✨ Animations:** 
+    *   Falling background particles (CSS Keyframes).
+    *   Smooth form appearance (`slideIn`).
+    *   Interactive buttons with gradient shine effects on hover.
+*   **⚙️ Functionality:**
+    *   Smooth transition between Login and Signup without page reload.
+    *   **Show Password:** "Eye" button works on hold-to-view (enhanced security).
+    *   **Validation:** Input restricted to English characters and symbols only (non-Latin characters blocked).
+    *   **UI Protection:** Element dragging blocked (Drag & Drop prevention).
+
+---
+
+## 🛠️ Technologies
+
+| Technology | Description |
 | :--- | :--- |
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Структура и разметка |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Стили, Flexbox, Keyframes анимации |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Логика переключения форм и валидация |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Structure and markup |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Styling, Flexbox, Keyframes animations |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Form switching logic and input validation |
 
 ---
 
-## 📂 Структура проекта
+## 📂 Project Structure
 
 ```text
 📦 Squad-Project
- ┣ 📜 index.html      # Главная страница (Welcome)
- ┣ 📜 forms.html      # Страница с формами (Login/Signup)
- ┣ 📜 style.css       # Стили для главной
- ┣ 📜 forms.css       # Стили для форм
- ┣ 📜 forms.js        # Скрипты (валидация, анимации)
- ┗ 🖼️ wall.png        # Фоновое изображение
+ ┣ 📜 index.html      # Main page (Welcome)
+ ┣ 📜 forms.html      # Forms page (Login/Signup)
+ ┣ 📜 style.css       # Styles for the main page
+ ┣ 📜 forms.css       # Styles for the forms
+ ┣ 📜 forms.js        # Scripts (validation, animations)
+ ┗ 🖼️ wall.png        # Background image
