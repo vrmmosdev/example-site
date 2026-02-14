@@ -44,7 +44,7 @@ A beautiful and modern authentication interface featuring **Glassmorphism** effe
 ```text
 📦 Squad-Project
  ┣ 📜 index.html      # Main page (Welcome)
- ┣ 📜 forms.html      # Forms page (Login/Signup)
+ ┣ 📜 forms.html      # Forms page (Signin/Signup)
  ┣ 📜 style.css       # Styles for the main page
  ┣ 📜 forms.css       # Styles for the forms
  ┣ 📜 forms.js        # Scripts (validation, animations)
