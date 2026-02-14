@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squad - Login & Register</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+        <div class="crumb"></div>
+
+        <div class="form-container">
+            <div class="form-wrapper active" id="login-form">
+                <h2>login</h2>
+                <form>
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="email" class="english-only" placeholder="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="password" class="password-input" placeholder="password" required>
+                            <button type="button" class="toggle-password" data-target="0">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-submit">login</button>
+                </form>
+                <p class="form-toggle">don't have an account ? <a href="#" onclick="toggleForms(event)">sign up</a></p>
+            </div>
+
+            <div class="form-wrapper" id="signup-form">
+                <h2>sign up</h2>
+                <form>
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="text" placeholder="username" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="password" class="password-input" placeholder="password" required>
+                            <button type="button" class="toggle-password" data-target="0">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="password" class="password-input" placeholder="confirm password" required>
+                            <button type="button" class="toggle-password" data-target="1">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-submit">sign up</button>
+                </form>
+                <p class="form-toggle">already have an account ? <a href="#" onclick="toggleForms(event)">login</a></p>
+            </div>
+
+            <a href="index.html" class="back-link">← back</a>
+        </div>
+    </div>
+
+    <script src="forms.js"></script>
+</body>
+</html>
